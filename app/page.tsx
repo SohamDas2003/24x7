@@ -7,6 +7,7 @@ import {
 	Statistics,
 	Contact,
 	Footer,
+	Locations,
 } from "@/components";
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
 			<Services />
 			<Brands />
 			<Statistics />
+			<Locations />
 			<Contact />
 			<Footer />
 		</div>

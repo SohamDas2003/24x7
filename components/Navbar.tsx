@@ -144,6 +144,12 @@ export default function Navbar({ variant = "home" }: NavbarProps) {
 								Brands
 							</Link>
 							<Link
+								href="/#locations"
+								onClick={() => setMobileMenuOpen(false)}
+								className="text-[#ca2929] font-semibold text-lg uppercase hover:opacity-80 transition-opacity">
+								Locations
+							</Link>
+							<Link
 								href="/#contact"
 								onClick={() => setMobileMenuOpen(false)}
 								className="text-[#ca2929] font-semibold text-lg uppercase hover:opacity-80 transition-opacity">
@@ -278,6 +284,11 @@ export default function Navbar({ variant = "home" }: NavbarProps) {
 								className={`nav-link ${isBrand ? "nav-link--brand" : ""} ${navLinkTextClass} cursor-pointer uppercase`}
 								href="/#brands">
 								Brands
+							</Link>
+							<Link
+								className={`nav-link ${isBrand ? "nav-link--brand" : ""} ${navLinkTextClass} cursor-pointer uppercase`}
+								href="/#locations">
+								Locations
 							</Link>
 							<Link
 								className={`nav-link ${isBrand ? "nav-link--brand" : ""} ${navLinkTextClass} cursor-pointer uppercase`}

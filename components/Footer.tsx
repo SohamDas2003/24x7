@@ -97,6 +97,13 @@ export default function Footer() {
 							</li>
 							<li>
 								<Link
+									href="#locations"
+									className="text-gray-300 hover:text-red-500 transition-colors text-sm">
+									Locations
+								</Link>
+							</li>
+							<li>
+								<Link
 									href="#contact"
 									className="text-gray-300 hover:text-red-500 transition-colors text-sm">
 									Contact
