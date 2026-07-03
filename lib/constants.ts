@@ -1,15 +1,15 @@
 // Company configuration and constants
 export const COMPANY_INFO = {
-	name: "24x7 Repair Center",
-	fullName: "24x7 Repair Center",
+	name: "Kashish Enterprises",
+	fullName: "Kashish Enterprises",
 	tagline: "Best Appliance Repair Services Ever Seen",
 	description:
-		"24x7 Repair Center is dedicated to deliver reliable home appliance repair service for every major brand in India. With certified experts, affordable repair, maintenance & installation services, we ensure your home remains hassle-free, any time you need us.",
+		"Kashish Enterprises is dedicated to deliver reliable home appliance repair service for every major brand in India. With certified experts, affordable repair, maintenance & installation services, we ensure your home remains hassle-free, any time you need us.",
 
 	// Contact Information
 	phone: "18003093108",
 	phoneDisplay: "1800 309 3108",
-	email: "info@24x7repaircenter.com",
+	email: "info@kashishenterpries.com",
 
 	// Address
 	address: {
